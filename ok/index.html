@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Разборка запчастей Мазда</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="uikit3/uikit.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style.css?v=2" media="all" />
+</head>
+<body>
+    <div class="wrap"><div uk-alert class="alert-message w1" hidden>
+	<a class="uk-alert-close" uk-close></a>
+	<p><b>Информационный текст или сообщение.</b></p>
+</div>
+<header class="w1 uk-flex">
+	<a href="/" class="header-logo">
+		<div class="header-time-mobile">
+			<div class="header-time-mobile1">
+				Работаем без выходных
+			</div>
+			<div class="header-time-mobile2">
+				<b>с 9:00 до 21:00</b>
+			</div>
+		</div>
+	</a>
+	<div class="header-phones uk-width-expand uk-flex uk-flex-between">
+		<div class="header-phone header-phone-te">
+			<div class="header-phone1">
+				<i class="faicon-phone faicon"></i>
+				Автозапчасти
+			</div>
+			<a href="tel:+74956435312" class="header-phone2">
+				<span>+7 (495)</span> 643-53-12
+			</a>
+		</div>
+		<div class="header-phone header-phone-te">
+			<div class="header-phone1">
+				<i class="faicon-phone faicon"></i>
+				Авторазборка
+			</div>
+			<a href="tel:+74956435320" class="header-phone2">
+				<span>+7 (495)</span> 643-53-20
+			</a>
+		</div>
+		<div class="header-phone header-phone-te">
+			<div class="header-phone1">
+				<i class="faicon-phone faicon"></i>
+				Автосервис
+			</div>
+			<a href="tel:+79654194048" class="header-phone2">
+				<span>+7 (965)</span> 419-40-48
+			</a>
+		</div>
+		<div class="header-phone header-phone-wa">
+			<div class="header-phone1">
+				<i class="faicon-whatsapp faicon"></i>
+				WhatsApp
+			</div>
+			<a href="whatsapp://send?text=''&phone=+79771564616&abid=+79771564616" class="header-phone2">
+				<span>+7 (977)</span> 156-46-16
+			</a>
+		</div>
+		<div class="header-call">
+			<a class="uk-button uk-button-primary" href="#" uk-toggle="target: .call-modal">Обратный звонок</a>
+		</div>
+	</div>
+</header><nav class="nav-menu" uk-navbar>
+	<ul class="uk-navbar-nav">
+		<li><a href="#" class="nav-catalog" uk-toggle="target: .nav-menu-panel; cls: nav-slide">
+				<i class="faicon-bars faicon"></i>
+				Каталог запчастей</a></li>
+		<li><a href="#">Техцентр</a></li>
+		<li><a href="#">Шиномонтаж</a></li>
+		<li><a href="#">Оплата и доставка</a></li>
+		<li><a href="#">Акции</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">Отзывы</a></li>
+		<li><a href="#">О нас</a></li>
+		<li class="nav-menu-cart"><a href="#" class="nav-cart">
+				<i class="faicon faicon-cart"></i>
+				<b>Корзина</b>
+				<span class="nav-cart-count">1</span> <!-- .cart-empty then 0 -->
+			</a></li>
+	</ul>
+	<div class="nav-menu-mobile">
+		<div class="nav-menu-mobile-1">
+			<a href="#" class="search-button"></a>
+		</div>
+		<div class="nav-menu-mobile-2">
+			<a href="#" class="phones-button" uk-toggle="target: .header-phones-mobile-modal">Телефоны для связи</a>
+		</div>
+		<div class="nav-menu-mobile-3">
+			<a href="#"><i class="faicon-bars" uk-toggle="target: .car-mobile-modal"></i></a>
+		</div>
+	</div>
+</nav>
+<div class="nav-menu-panel">
+	<div class="w1">
+		<div class="car-cars">
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BK (2003-2008)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BL (2009-2013)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GG (2002-2007)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GH (2007-2012)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KE (2012-2016)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+			ER (2006-2012)
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2007-2012)
+		</a>
+	</div>
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BM (2013-2016)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BN (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GJ (2012-2016)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GL (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KF (2017 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2016 - по н.в.)
+		</a>
+	</div>
+</div>
+	</div>
+</div><div class="car-crumbs">
+	<div uk-grid>
+		<div class="col-h1 uk-width-expand">
+			<ul class="uk-breadcrumb">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Каталог запчастей</a></li>
+			</ul>
+			<h1>Новые и Б/У запчасти для автомобилей марки MAZDA</h1>
+		</div>
+		<div class="col-search">
+			<form class="car-search uk-search uk-search-default">
+				<button type="submit" class="search-button"></button>
+				<input class="uk-search-input" type="search" placeholder="Поиск по ключевому слову">
+			</form>
+		</div>
+	</div>
+	<div class="car-cars">
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BK (2003-2008)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BL (2009-2013)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GG (2002-2007)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GH (2007-2012)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KE (2012-2016)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+			ER (2006-2012)
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2007-2012)
+		</a>
+	</div>
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BM (2013-2016)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BN (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GJ (2012-2016)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GL (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KF (2017 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2016 - по н.в.)
+		</a>
+	</div>
+</div>
+</div>
+
+<div class="tizers uk-child-width-1-4@l w1" uk-grid>
+	<a href="#" class="tizer">
+		<b>Видео-обзоры</b>
+		Для любой интересующей вас позиции снимаем видео обзор автозапчасти с детальным описанием.
+	</a>
+	<a href="#" class="tizer">
+		<b>Полный комплекс услуг</b>
+		Магазин новых, б.у. запчастей и техцентр в одном месте
+	</a>
+	<a href="#" class="tizer">
+		<b>Качество обслуживания</b>
+		Индивидуальный подход к каждому клиенту
+	</a>
+	<a href="#" class="tizer">
+		<b>География</b>
+		Осуществляем доставку запчастей по всей России через транспортные компании
+	</a>
+</div>		<div class="index-spec w1">
+			<h2>Спецпредложения</h2>
+			<div class="catalog-list uk-child-width-1-6@l" uk-grid>
+				<div>
+					<div class="uk-card spec">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/pb080302.jpg"></a>
+						<a href="#" class="model">Mazda 3 (2003-2008 г) Mazda 3 (2003-2008 г)</a>
+						<a href="#" class="name">Бу фонарь задний правый в крышку багажника</a>
+						<a href="#" class="price">
+							<s>1 400 <i class="rub-sign"></i></s>
+							<b>1 500 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card spec">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/banner-shin.gif"></a>
+						<a href="#" class="model">Mazda 6 (2002-2007 г)</a>
+						<a href="#" class="name">Бу фонарь задний правый в крышку багажника</a>
+						<a href="#" class="price">
+							<b>1 500 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card spec">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/_________________4fbb4548df7865.jpg"></a>
+						<a href="#" class="model">Mazda 6</a>
+						<a href="#" class="name">Бу дверь передняя левая</a>
+						<a href="#" class="price">
+							<b>1 500 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card spec">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/_________________52a09e09e43f1.jpg"></a>
+						<a href="#" class="model">Mazda 3</a>
+						<a href="#" class="name">Колодки тормозные передние TEXTAR (Германия)</a>
+						<a href="#" class="price">
+							<b>7 000 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card spec">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/_________________4fc207425ba6e3.jpg"></a>
+						<a href="#" class="model">Mazda 3 (2003-2008 г) Mazda 3 (2003-2008 г)</a>
+						<a href="#" class="name">Крышка омывателя левой фары</a>
+						<a href="#" class="price">
+							<b>1 830 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card spec">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/_________________509906a2d664f.jpg"></a>
+						<a href="#" class="model">Mazda 3</a>
+						<a href="#" class="name">Замок капота </a>
+						<a href="#" class="price">
+							<b>1 160 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>		<div class="index-pop w1">
+			<h2>Частые покупки
+				<a hre="#" class="a-viewall">
+					<b>Посмотреть все</b>
+					<s>Все</s>
+				</a>
+			</h2>
+			<div class="catalog-list uk-child-width-1-6@l" uk-grid>
+				<div>
+					<div class="uk-card">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/pb080302.jpg"></a>
+						<a href="#" class="model">Mazda 3 (2003-2008 г) Mazda 3 (2003-2008 г)</a>
+						<a href="#" class="name">Бу фонарь задний правый в крышку багажника</a>
+						<a href="#" class="price">
+							<s>1 400 <i class="rub-sign"></i></s>
+							<b>1 500 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/banner-shin.gif"></a>
+						<a href="#" class="model">Mazda 6 (2002-2007 г)</a>
+						<a href="#" class="name">Бу фонарь задний правый в крышку багажника</a>
+						<a href="#" class="price">
+							<b>1 500 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/_________________4fbb4548df7865.jpg"></a>
+						<a href="#" class="model">Mazda 6</a>
+						<a href="#" class="name">Бу дверь передняя левая</a>
+						<a href="#" class="price">
+							<b>1 500 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/_________________52a09e09e43f1.jpg"></a>
+						<a href="#" class="model">Mazda 3</a>
+						<a href="#" class="name">Колодки тормозные передние TEXTAR (Германия)</a>
+						<a href="#" class="price">
+							<b>7 000 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/_________________4fc207425ba6e3.jpg"></a>
+						<a href="#" class="model">Mazda 3 (2003-2008 г) Mazda 3 (2003-2008 г)</a>
+						<a href="#" class="name">Крышка омывателя левой фары</a>
+						<a href="#" class="price">
+							<b>1 830 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="uk-card">
+						<a href="#" class="img"><img src="http://www.mazda495.ru/images/stories/virtuemart/product/_________________509906a2d664f.jpg"></a>
+						<a href="#" class="model">Mazda 3</a>
+						<a href="#" class="name">Замок капота </a>
+						<a href="#" class="price">
+							<b>1 160 <i class="rub-sign-b"></i></b>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>		<div class="index-reviews uk-align-right@l">
+			<h2>Отзывы</h2>
+
+			<div class="index-reviews-list">
+				<div class="index-reviews-item">
+					<div class="mark mark10"></div>
+					<div class="fio">Николай Иванович</div>
+					<div class="text">Вы имеете возможность купить в розницу или оптом автозапчасти для японских автомобилей Mazda: глушители, сальники</div>
+					<a href="#" class="link">Прочесть полностью</a>
+				</div>
+				<div class="index-reviews-item">
+					<div class="mark mark45"></div>
+					<div class="fio">Николай Иванович</div>
+					<div class="text">Вы имеете возможность купить в розницу или оптом автозапчасти для японских автомобилей Mazda: глушители, сальники</div>
+					<a href="#" class="link">Прочесть полностью</a>
+				</div>
+			</div>
+
+			<div class="uk-clearfix">
+				<div class="uk-float-right">
+					<a class="uk-button uk-button-primary" href="#">Оставить отзыв</a>
+				</div>
+				<div class="uk-float-left">
+					<a class="index-reviews-all" href="#">Все отзывы</a>
+				</div>
+			</div>
+
+		</div>		<div class="index-text w1">
+			<h2>Запчасти на Мазда - большая разборка б.у. запчастей</h2>
+			<p>
+				Наша компания представляет новые и б/у автозапчасти для Mazda 3 и других моделей.
+				У нас вы найдете катализаторы, резонаторы для выхлопной системы; бензонасосы, датчики для показателей уровня топлива, фильтры и пр. для топливной системы; диски, барабаны, цилиндры для сцепления тормозной системы и пр.
+				Вы имеете возможность купить в розницу или оптом автозапчасти для японских автомобилей Mazda: глушители, сальники, фильтры, резонаторы – полный комплект деталей, которые могут быть полезны вашему автомобилю и вам.
+			</p>
+			<h2>Разборка Мазда - любые б.у. запчасти</h2>
+			<p>
+				У нас на разборке по Мазда Вы имеете возможность купить б/у автозапчасти на любые модели Mazda 6, Mazda 3, Мазда 323F, Mazda 323 BJ, Mazda 323 BG, Мазда 626 GE, Mazda Xedos 6 и др. Но если какой-либо детали сегодня нет в наличии, по индивидуальному заказу мы доставим необходимую деталь. Каждая авто запчасть имеет гарантию качества и обеспечивает долгий срок работы вашего автомобиля.
+			</p>
+			<p>
+				А если вы не желаете пользоваться б.у. контрактными запчастями, мы подберем для вас совершенно новые автозапчасти для Mazda 6 и иных моделей от самого производителя. Только у нас на разборе Вам помогут подобрать для своего автомобиля - топливные насосы и бензонасосы, клеммы к бензонасосам, детали для системы торможения (тормозные цилиндры и колодки, датчики частоты вращения, диски тормозные), элементы ходовой (подшипники, ступицы задние и передние). Покупая б/у автозапчасть вы получаете гарантию лично от дистрибьютора, то есть от нашей компании.
+			</p>
+			<p>
+				На каждую деталь, автомобиля Mazda дается гарантия качества от самого производителя и дистрибьютора. К тому же помимо запчастей для внутренних систем автомобиля, рекомендуются зеркала, спойлеры, обвесы и многая другая продукция для внешнего и внутреннего тюнинга автосалона. Наш разбор мазд поставляет и продаёт автозапчасти для автомобилей Мазда, и в дополнение производим покупку автомобилей на запчасти.
+			</p>
+			<p>
+				Всегда стараемся расширить наш ассортимент разнообразными деталями, находимся недалеко от автомобильного рынка в Кунцево.
+			</p>
+			<p>
+				<a uk-toggle=".alert-message" href=".alert-message" uk-scroll>Сообщение</a>
+			</p>
+				
+		</div><footer>
+	<ul class="nav w1">
+		<li class="copyright">© 2017 «Mazda495»</li>
+		<li><a href="#">Техноцентр</a></li>
+		<li><a href="#">Шиномонтаж</a></li>
+		<li><a href="#">Оплата и доставка</a></li>
+		<li><a href="#">Акции</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">О компании</a></li>
+		<li><a href="#">Отзывы</a></li>
+		<li><a href="#">Свидетельства</a></li>
+		<li><a href="#">Блог</a></li>
+	</ul>
+
+	<div class="footer-catalog">
+		<div class="w1">
+			<div class="footer-catalog-h"><b>Запчасти для автомобилей MAZDA</b></div>
+			<ul class="footer-catalog-nav uk-column-1-2 uk-column-1-5@l">
+				<li><a href="#">Mazda 3 BK (2003-2008)</a></li>
+				<li><a href="#">Mazda 3 BL (2009-2013)</a></li>
+				<li><a href="#">Mazda 3 BM (2013-2016)</a></li>
+				<li><a href="#">Mazda 3 BN (2016 - по н.в.)</a></li>
+				<li><a href="#">Mazda 6 GG (2002-2007)</a></li>
+				<li><a href="#">Mazda 6 GH (2007-2012)</a></li>
+				<li><a href="#">Mazda 6 GJ (2012-2016)</a></li>
+				<li><a href="#">Mazda 6 GL (2016 - по н.в.)</a></li>
+				<li><a href="#">Mazda CX-5 KE (2012-2016)</a></li>
+				<li><a href="#">Mazda CX-5 KF (2017 - по н.в.)</a></li>
+				<li><a href="#">Mazda CX-7 ER (2006-2012)</a></li>
+				<li><a href="#">Mazda CX-7</a></li>
+				<li><a href="#">Mazda CX-9 TB (2007-2012)</a></li>
+				<li><a href="#">Mazda CX-9 TB (2016 - по н.в.)</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer-info uk-flex w1">
+		<div class="footer-info-1">
+			г.Москва, ул.Генерала Дорохова д.6
+			<br>
+			Часы работы:
+			<br>
+			с 10:00 до 21:00 - без выходных
+		</div>
+		<div class="footer-info-2">
+			email: <a href="mailto:mazda495@mail.ru">mazda495@mail.ru</a>
+			<br>
+			тел: <a href="tel:84956435312" class="tel">8 (495) 643-53-12</a>
+			<br>
+			тел: <a href="tel:84956435320" class="tel">8 (495) 643-53-20</a>
+		</div>
+		<div class="footer-info-3">
+			ИП Черченко Денис Александрович
+			<br>
+			ИНН: 507502040532
+			<br>
+			ОГРН ИП :307507521800020
+		</div>
+		<div class="footer-info-4">
+			<a href="#" class="faicon-fb faicon"></a>
+			<a href="#" class="faicon-vk faicon"></a>
+			<a href="#" class="faicon-ok faicon"></a>
+		</div>
+
+	</div>
+</footer>		<div class="header-phones-mobile-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					Телефоны для связи
+				</div>
+				<div class="header-phones-mobile">
+				</div>
+			</div>
+		</div>
+
+		<div class="call-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					Обратный звонок
+				</div>
+				<form class="uk-form-stacked">
+					<div>
+						<label class="uk-form-label" for="call-modal-name">Ваше имя</label>
+						<div class="uk-form-controls">
+							<input class="uk-input" id="call-modal-name" type="text">
+						</div>
+					</div>
+					<div>
+						<label class="uk-form-label" for="call-modal-phone">Номер телефона</label>
+						<div class="uk-form-controls">
+							<input class="uk-input phone" id="call-modal-phone" type="text">
+						</div>
+					</div>
+					<button class="uk-button uk-button-primary" >Жду звонка</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="car-mobile-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<ul class="car-mobile-ul">
+					<li><a href="#">Техцентр</a></li>
+					<li><a href="#">Шиномонтаж</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">О нас</a></li>
+				</ul>
+				<div class="uk-h2">
+					Каталог автозапчастей для:
+				</div>
+				<div class="car-mobile">
+					<div class="car-cars">
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BK (2003-2008)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BL (2009-2013)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GG (2002-2007)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GH (2007-2012)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KE (2012-2016)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+			ER (2006-2012)
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2007-2012)
+		</a>
+	</div>
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BM (2013-2016)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BN (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GJ (2012-2016)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GL (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KF (2017 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2016 - по н.в.)
+		</a>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="map-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					Техноцентр
+				</div>
+				<div id="map"></div>
+			</div>
+		</div>
+
+		<div class="cart-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					<i class="faicon-cart"></i>
+					Товар добавлен в корзину
+				</div>
+				<div class="cart-modal-buttons uk-flex uk-flex-around">
+					<a class="uk-button uk-button-primary" href="#">Оформить заказ</a>
+					<a class="uk-button button-grey" href="#"  uk-toggle="target: .cart-modal">Продолжить покупки</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="rec-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					Предварительная запись на&nbsp;ремонт
+				</div>
+				<form class="uk-form-stacked">
+					<div>
+						<label class="uk-form-label" for="rec-modal-name">Ваше имя</label>
+						<div class="uk-form-controls">
+							<input class="uk-input" id="rec-modal-name" type="text">
+						</div>
+					</div>
+					<div>
+						<label class="uk-form-label" for="rec-modal-phone">Номер телефона</label>
+						<div class="uk-form-controls">
+							<input class="uk-input phone" id="rec-modal-phone" type="text">
+						</div>
+					</div>
+					<button class="uk-button uk-button-primary" >Жду звонка</button>
+				</form>
+			</div>
+		</div>	</div> <!-- .wrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="uikit3/uikit-icons.min.js"></script>
+	<script src="uikit3/uikit.min.js"></script>
+	<script src="script.js?v=2"></script>
+</body>
+</html>

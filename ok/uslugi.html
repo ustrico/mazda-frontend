@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Разборка запчастей Мазда</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="uikit3/uikit.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+    <div class="wrap"><div uk-alert class="alert-message w1" hidden>
+	<a class="uk-alert-close" uk-close></a>
+	<p><b>Информационный текст или сообщение.</b></p>
+</div>
+<header class="w1 uk-flex">
+	<a href="/" class="header-logo">
+		<div class="header-time-mobile">
+			<div class="header-time-mobile1">
+				Работаем без выходных
+			</div>
+			<div class="header-time-mobile2">
+				<b>с 9:00 до 21:00</b>
+			</div>
+		</div>
+	</a>
+	<div class="header-phones uk-width-expand uk-flex uk-flex-between">
+		<div class="header-phone header-phone-te">
+			<div class="header-phone1">
+				<i class="faicon-phone faicon"></i>
+				Автозапчасти
+			</div>
+			<a href="tel:+74956435312" class="header-phone2">
+				<span>+7 (495)</span> 643-53-12
+			</a>
+		</div>
+		<div class="header-phone header-phone-te">
+			<div class="header-phone1">
+				<i class="faicon-phone faicon"></i>
+				Авторазборка
+			</div>
+			<a href="tel:+74956435320" class="header-phone2">
+				<span>+7 (495)</span> 643-53-20
+			</a>
+		</div>
+		<div class="header-phone header-phone-te">
+			<div class="header-phone1">
+				<i class="faicon-phone faicon"></i>
+				Автосервис
+			</div>
+			<a href="tel:+79654194048" class="header-phone2">
+				<span>+7 (965)</span> 419-40-48
+			</a>
+		</div>
+		<div class="header-phone header-phone-wa">
+			<div class="header-phone1">
+				<i class="faicon-whatsapp faicon"></i>
+				WhatsApp
+			</div>
+			<a href="whatsapp://send?text=''&phone=+79771564616&abid=+79771564616" class="header-phone2">
+				<span>+7 (977)</span> 156-46-16
+			</a>
+		</div>
+		<div class="header-call">
+			<a class="uk-button uk-button-primary" href="#" uk-toggle="target: .call-modal">Обратный звонок</a>
+		</div>
+	</div>
+</header><nav class="nav-menu" uk-navbar>
+	<ul class="uk-navbar-nav">
+		<li><a href="#" class="nav-catalog" uk-toggle="target: .nav-menu-panel; cls: nav-slide">
+				<i class="faicon-bars faicon"></i>
+				Каталог запчастей</a></li>
+		<li><a href="#">Техцентр</a></li>
+		<li><a href="#">Шиномонтаж</a></li>
+		<li><a href="#">Оплата и доставка</a></li>
+		<li><a href="#">Акции</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">Отзывы</a></li>
+		<li><a href="#">О нас</a></li>
+		<li class="nav-menu-cart"><a href="#" class="nav-cart">
+				<i class="faicon faicon-cart"></i>
+				<b>Корзина</b>
+				<span class="nav-cart-count">1</span> <!-- .cart-empty then 0 -->
+			</a></li>
+	</ul>
+	<div class="nav-menu-mobile">
+		<div class="nav-menu-mobile-1">
+			<a href="#" class="search-button"></a>
+		</div>
+		<div class="nav-menu-mobile-2">
+			<a href="#" class="phones-button" uk-toggle="target: .header-phones-mobile-modal">Телефоны для связи</a>
+		</div>
+		<div class="nav-menu-mobile-3">
+			<a href="#"><i class="faicon-bars" uk-toggle="target: .car-mobile-modal"></i></a>
+		</div>
+	</div>
+</nav>
+<div class="nav-menu-panel">
+	<div class="w1">
+		<div class="car-cars">
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BK (2003-2008)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BL (2009-2013)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GG (2002-2007)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GH (2007-2012)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KE (2012-2016)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+			ER (2006-2012)
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2007-2012)
+		</a>
+	</div>
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BM (2013-2016)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BN (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GJ (2012-2016)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GL (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KF (2017 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2016 - по н.в.)
+		</a>
+	</div>
+</div>
+	</div>
+</div><div class="car-crumbs">
+	<div uk-grid>
+		<div class="col-h1 uk-width-expand">
+			<ul class="uk-breadcrumb">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Техноцентр</a></li>
+			</ul>
+			<h1>Техноцентр</h1>
+		</div>
+		<div class="col-search">
+			<form class="car-search uk-search uk-search-default">
+				<button type="submit" class="search-button"></button>
+				<input class="uk-search-input" type="search" placeholder="Поиск по ключевому слову">
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="text w1">
+	<h1>Замена антифриза мазда 3</h1>
+
+	<div uk-grid>
+		<div class="uk-width-expand@l">
+
+			<p>
+				Наш техцентр мазда495 рекомендует замену антифриза на mazda 3 не реже двух раз в год. Дело в том, что если пренебречь заменой антифриза, велика вероятность появления коррозии на автомобиле. Особенно это касается автомобилей с алюминиевой головкой цилиндра и радиатором. Есть некоторые особенности при замене его на мазда 3:
+			</p>
+			<p class="strong">
+				1. чистая система
+				<br />
+				2. замена производится на холодном двигателе
+			</p>
+			<p>
+				Наши мастера сольют и заменят охлаждающую жидкость, затем произведут осмотр шлангов на предмет изношенности. Если будет необходимо, произведут замену шлангов. Затем, произведут полную очистку системы, за время работы автомобиля образуется ржавчина, различные отложения. Обычной водой их невозможно смыть. Затем, мастера нашего автосервиса Мазда495, производят замену антифриза. Через несколько дней обязательно проверьте уровень антифриза и по необходимости долейте до нужной отметки.
+			</p>
+			<p>
+				И помните, не откладывайте замену антифриза, иначе всё это может привести к сильному перегреву двигателя, что приведет его в негодность. Наши механики выполнят свою работы, оставив Вас довольным. Мы работаем на репутацию!
+			</p>
+
+		</div>
+		<div class="right-panel right-panel-uslugi">
+
+			<h2>Адрес техноцентра</h2>
+
+			<p>
+				г.Москва, ул.Генерала Дорохова д.6
+				<br>
+				<a href="#" class="dashed" uk-toggle="target: .map-modal">Показать на карте</a>
+			</p>
+			<p>
+				<b class="strong">Часы работы:</b>
+				<br>
+				с 10:00 до 21:00 - без выходных
+			</p>
+			<p>
+				<b class="strong">Контакты:</b>
+				<br>
+				<a href="mailto:mazda495@mail.ru">mazda495@mail.ru</a>
+				<br>
+				<a href="tel:84956435312" class="tel">8 (495) 643-53-12</a>
+				<br>
+				<a href="tel:84956435320" class="tel">8 (495) 643-53-20</a>
+			</p>
+
+			<div class="uslugi-price">
+				<b class="strong">Замена антифриза на мазда:</b>
+				<div class="uslugi-price-price">1 200 <i class="rub-sign-b"></i></div>
+			</div>
+
+			<a class="uk-button uk-button-primary" href="#" uk-toggle="target: .rec-modal">Записаться на замену</a>
+
+		</div>
+	</div>
+	
+</div>
+
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script>
+	var mazdaMap = null,
+		mazdaMapCoord = [55.705371, 37.448482];
+
+	function initmazdaMap() {
+		var collectionMsk = new ymaps.GeoObjectCollection();
+		var pmMsk = new ymaps.Placemark(mazdaMapCoord, { hintContent: '<div class="map"><b>MAZDA 495</b><br>ул. Генерала Дорохова, д.6</div>' }, { preset: "islands#redAutoIcon" });
+		collectionMsk.add(pmMsk);
+		mazdaMap = new ymaps.Map('map', { center:mazdaMapCoord, zoom:13} );
+		mazdaMap.geoObjects.add(collectionMsk);
+		mazdaMap.controls.add('smallZoomControl');
+	}
+	ymaps.ready(function(){
+		initmazdaMap();
+	});
+</script><footer>
+	<ul class="nav w1">
+		<li class="copyright">© 2017 «Mazda495»</li>
+		<li><a href="#">Техноцентр</a></li>
+		<li><a href="#">Шиномонтаж</a></li>
+		<li><a href="#">Оплата и доставка</a></li>
+		<li><a href="#">Акции</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><a href="#">О компании</a></li>
+		<li><a href="#">Отзывы</a></li>
+		<li><a href="#">Свидетельства</a></li>
+		<li><a href="#">Блог</a></li>
+	</ul>
+
+	<div class="footer-catalog">
+		<div class="w1">
+			<div class="footer-catalog-h"><b>Запчасти для автомобилей MAZDA</b></div>
+			<ul class="footer-catalog-nav uk-column-1-2 uk-column-1-5@l">
+				<li><a href="#">Mazda 3 BK (2003-2008)</a></li>
+				<li><a href="#">Mazda 3 BL (2009-2013)</a></li>
+				<li><a href="#">Mazda 3 BM (2013-2016)</a></li>
+				<li><a href="#">Mazda 3 BN (2016 - по н.в.)</a></li>
+				<li><a href="#">Mazda 6 GG (2002-2007)</a></li>
+				<li><a href="#">Mazda 6 GH (2007-2012)</a></li>
+				<li><a href="#">Mazda 6 GJ (2012-2016)</a></li>
+				<li><a href="#">Mazda 6 GL (2016 - по н.в.)</a></li>
+				<li><a href="#">Mazda CX-5 KE (2012-2016)</a></li>
+				<li><a href="#">Mazda CX-5 KF (2017 - по н.в.)</a></li>
+				<li><a href="#">Mazda CX-7 ER (2006-2012)</a></li>
+				<li><a href="#">Mazda CX-7</a></li>
+				<li><a href="#">Mazda CX-9 TB (2007-2012)</a></li>
+				<li><a href="#">Mazda CX-9 TB (2016 - по н.в.)</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer-info uk-flex w1">
+		<div class="footer-info-1">
+			г.Москва, ул.Генерала Дорохова д.6
+			<br>
+			Часы работы:
+			<br>
+			с 10:00 до 21:00 - без выходных
+		</div>
+		<div class="footer-info-2">
+			email: <a href="mailto:mazda495@mail.ru">mazda495@mail.ru</a>
+			<br>
+			тел: <a href="tel:84956435312" class="tel">8 (495) 643-53-12</a>
+			<br>
+			тел: <a href="tel:84956435320" class="tel">8 (495) 643-53-20</a>
+		</div>
+		<div class="footer-info-3">
+			ИП Черченко Денис Александрович
+			<br>
+			ИНН: 507502040532
+			<br>
+			ОГРН ИП :307507521800020
+		</div>
+		<div class="footer-info-4">
+			<a href="#" class="faicon-fb faicon"></a>
+			<a href="#" class="faicon-vk faicon"></a>
+			<a href="#" class="faicon-ok faicon"></a>
+		</div>
+
+	</div>
+</footer>		<div class="header-phones-mobile-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					Телефоны для связи
+				</div>
+				<div class="header-phones-mobile">
+				</div>
+			</div>
+		</div>
+
+		<div class="call-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					Обратный звонок
+				</div>
+				<form class="uk-form-stacked">
+					<div>
+						<label class="uk-form-label" for="call-modal-name">Ваше имя</label>
+						<div class="uk-form-controls">
+							<input class="uk-input" id="call-modal-name" type="text">
+						</div>
+					</div>
+					<div>
+						<label class="uk-form-label" for="call-modal-phone">Номер телефона</label>
+						<div class="uk-form-controls">
+							<input class="uk-input phone" id="call-modal-phone" type="text">
+						</div>
+					</div>
+					<button class="uk-button uk-button-primary" >Жду звонка</button>
+				</form>
+			</div>
+		</div>
+
+		<div class="car-mobile-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<ul class="car-mobile-ul">
+					<li><a href="#">Техцентр</a></li>
+					<li><a href="#">Шиномонтаж</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">О нас</a></li>
+				</ul>
+				<div class="uk-h2">
+					Каталог автозапчастей для:
+				</div>
+				<div class="car-mobile">
+					<div class="car-cars">
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BK (2003-2008)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BL (2009-2013)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GG (2002-2007)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GH (2007-2012)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KE (2012-2016)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+			ER (2006-2012)
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2007-2012)
+		</a>
+	</div>
+	<div class="car-cars-row uk-child-width-expand@l " uk-grid>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BM (2013-2016)
+		</a>
+		<a class="car-item mazda-3" href="#">
+			<b>MAZDA 3</b>
+			BN (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GJ (2012-2016)
+		</a>
+		<a class="car-item mazda-6" href="#">
+			<b>MAZDA 6</b>
+			GL (2016 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-5</b>
+			KF (2017 - по н.в.)
+		</a>
+		<a class="car-item mazda-cx-5" href="#">
+			<b>MAZDA CX-7</b>
+		</a>
+		<a class="car-item mazda-cx-9" href="#">
+			<b>MAZDA CX-9</b>
+			TB (2016 - по н.в.)
+		</a>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="map-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					Техноцентр
+				</div>
+				<div id="map"></div>
+			</div>
+		</div>
+
+		<div class="cart-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					<i class="faicon-cart"></i>
+					Товар добавлен в корзину
+				</div>
+				<div class="cart-modal-buttons uk-flex uk-flex-around">
+					<a class="uk-button uk-button-primary" href="#">Оформить заказ</a>
+					<a class="uk-button button-grey" href="#"  uk-toggle="target: .cart-modal">Продолжить покупки</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="rec-modal" uk-modal>
+			<div class="uk-modal-dialog uk-margin-auto-vertical">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-h2">
+					Предварительная запись на&nbsp;ремонт
+				</div>
+				<form class="uk-form-stacked">
+					<div>
+						<label class="uk-form-label" for="rec-modal-name">Ваше имя</label>
+						<div class="uk-form-controls">
+							<input class="uk-input" id="rec-modal-name" type="text">
+						</div>
+					</div>
+					<div>
+						<label class="uk-form-label" for="rec-modal-phone">Номер телефона</label>
+						<div class="uk-form-controls">
+							<input class="uk-input phone" id="rec-modal-phone" type="text">
+						</div>
+					</div>
+					<button class="uk-button uk-button-primary" >Жду звонка</button>
+				</form>
+			</div>
+		</div>	</div> <!-- .wrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="uikit3/uikit-icons.min.js"></script>
+	<script src="uikit3/uikit.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
